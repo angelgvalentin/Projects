@@ -9,7 +9,7 @@
 h1 {
   background-color: inherit;
   color: white;
-  font-family: "Arimo", sans-serif;
+  font-family: "Poppins", sans-serif;
 
 }
 
@@ -20,7 +20,7 @@ h2 {
 
 h3 {
   background-color: inherit;
-  font-family: "Arimo", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 100;
   color: white;
 }
@@ -29,7 +29,19 @@ h3 {
 a {
   background-color: inherit;
   color: white;
+  text-decoration: none;
 }
+
+header a:hover {
+  background-color: inherit;
+  color: #FB4646;
+  text-shadow: 2px 3px 5px rgba(251,70,70,1);
+  font-size: 1.1em;
+  transition: 300ms;
+
+}
+
+
 
 p {
   background-color: inherit;
@@ -40,7 +52,7 @@ body {
 
   background-color: #383838;
 
-  font-family: "Arimo", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 
@@ -58,7 +70,7 @@ html {
   max-width: 900px;
   margin: 0 auto;
   width: 80%;
-  height: 700px;
+  height: auto;
   gap: 30px;
 }
 
@@ -73,7 +85,7 @@ header {
   background-color: inherit;
   font-size: 25px;
   gap: 20px;
-  font-family: "Arimo", sans-serif;
+  font-family: "Poppins", sans-serif;
   position: sticky;
   top: 0px;
 }
@@ -110,7 +122,7 @@ section {
 
   background-color: inherit;
   width: 25%;
-  height: 100%;
+  height: auto;
   text-align: center;
 }
 
@@ -132,7 +144,16 @@ section {
 .social-media-container {
   display: flex;
   height: 40px;
+  width 80%;
   background-color: inherit;
+  align-items: space-around;
+}
+
+.social-media-container a {
+  display: flex;
+  height: 40px;
+  background-color: inherit;
+  font-family: sans-serif;
 }
 
 
@@ -265,8 +286,6 @@ section {
   flex-direction: column;
   background-color: #474747;
   margin: 30px;
-  
-
 }
 
 
@@ -283,4 +302,4 @@ section {
 
 
 
-font-family: 'Arimo', sans-serif;
+font-family: 'Poppins', sans-serif;
